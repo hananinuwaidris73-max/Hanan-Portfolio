@@ -16,7 +16,7 @@ body {
 aside {
     width: 280px;
     height: 100vh;
-    background-color: #0F172A; /* Slate Blue Dark */
+    background-color: #0F172A; 
     position: fixed;           
     top: 0;
     left: 0;
@@ -37,7 +37,7 @@ aside {
     height: 100px; 
     border-radius: 50%; 
     object-fit: cover; 
-    border: 3px solid #0EA5E9; /* Teal accent border */
+    border: 3px solid #0EA5E9; 
     display: block; 
     margin: 0 auto 15px auto;
 }
@@ -85,7 +85,7 @@ nav a:hover {
 
 nav a.active {
     color: #ffffff;
-    background-color: #0EA5E9; /* Teal Active state */
+    background-color: #0EA5E9; 
     font-weight: 500;
 }
 
@@ -120,7 +120,7 @@ h2 {
     padding-bottom: 8px;
 }
 
-/* Bottom line accent instead of left side border */
+
 h2::after {
     content: '';
     position: absolute;
@@ -141,7 +141,7 @@ p {
     color: #475569;
 }
 
-/* Modern Pill Style List items instead of standard square items */
+
 .styled-list {
     list-style-type: none;
     margin-top: 15px;
